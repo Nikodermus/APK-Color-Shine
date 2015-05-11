@@ -1,0 +1,57 @@
+/*------------GENERAL------------*/
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-family: "Arial";
+    background-image: url(../IMAGES/pattern_blue.png)
+}
+.conteiner{
+    height: 600px;
+    overflow: hidden;
+}
+figure{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+.color_shine{
+    width: 300px;
+}
+form{
+    text-align: center;
+}
+form p #username,form p #password{
+    color: #fff;
+    background: rgba(255, 255, 255, 0.42);
+    text-align: center;
+    padding: 10px 80px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 19px;
+    border: none;
+}
+.sign_up{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 17px;
+}
+.conteiner p.sign_up a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.social{
+    text-align: center;
+    margin: 20px 0 0px 0;
+}
+.social img{
+    width: 80px;
+    margin: 0 10px;
+}
+.play{
+    margin: -10px 0 0 0;
+    width: 50px;
+}

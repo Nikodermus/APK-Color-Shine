@@ -1,0 +1,45 @@
+/*------------GENERAL------------*/
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-family: "Arial";
+    background-image: url(../IMAGES/pattern_blue.png);
+    font-size: 20px;
+}
+conteiner{
+    height: 600px;
+    overflow: hidden;
+}
+.wrapper{
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.50);
+    padding: 20px;
+    color: #fff;
+    border-radius: 6px;
+    height: 540px;
+    overflow: hidden;
+}
+#username{
+    display: block;
+    margin: 5px;
+    width: 300px
+}
+p{
+    margin: 30px 0;
+}
+figure{
+    text-align: center
+}
+.login{
+    width: 60px;
+}
+.social{
+    text-align: center;
+    margin: 20px 0 0px 0;
+}
+.social img{
+    width: 80px;
+    margin: 0 10px;
+}

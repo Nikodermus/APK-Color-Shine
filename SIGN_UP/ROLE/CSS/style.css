@@ -1,0 +1,60 @@
+/*------------GENERAL------------*/
+@font-face
+{
+   font-family: "Animated";
+   src: url("http://www.nikodermus.media/Animated.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-family: "Arial";
+}
+.div_role{
+    display: block;
+    position: relative;
+    height: 230px;
+    margin: -32px 0 0 0;
+}
+.div_role:nth-child(1){
+    background-image: url(../IMAGES/background_red.png);
+    z-index: 22;
+}
+.div_role:nth-child(2){
+    background-image: url(../IMAGES/background_blue.png);
+    z-index: 21;.
+}
+.div_role:nth-child(3){
+    background-image: url(../IMAGES/background_purple.png);
+    z-index: 20;
+} 
+.role{
+    padding: 20px;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width:40%;
+    text-align: center;
+    color: white;
+    font-family: Animated;
+    font-size: 2em;
+}
+.logo p{
+    margin: 10px 0;
+}
+.explication{
+    position: absolute;
+    top: 32px;
+    right: 25px; 
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+.div_role:nth-child(1) p{
+    margin: 10px;
+}
+
+
