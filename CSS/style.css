@@ -5,11 +5,13 @@
 }
 body{
     font-family: "Arial";
-    background-image: url(../IMAGES/pattern_blue.png)
+    /*background-image: url(../IMAGES/pattern_blue.png)*/
 }
 .conteiner{
     height: 600px;
     overflow: hidden;
+    background: black;
+    width: 360px;
 }
 figure{
     text-align: center;
@@ -20,6 +22,7 @@ figure{
 }
 form{
     text-align: center;
+    margin: 0 10px;
 }
 form p #username,form p #password{
     color: #fff;
@@ -30,6 +33,7 @@ form p #username,form p #password{
     margin: 5px 0;
     font-size: 19px;
     border: none;
+    
 }
 .sign_up{
     color: white;
@@ -55,3 +59,18 @@ a{
     margin: -10px 0 0 0;
     width: 50px;
 }
+
+@media screen and (max-width: 480px){
+    .conteiner{
+        width: 100%; 
+         height: 600px;
+        overflow: hidden;
+        background: black;
+        
+    }
+    
+    form{
+        margin: 0 10px;
+    }
+    
+@media screen and (min-width: 481px) and (max-width: 799)
