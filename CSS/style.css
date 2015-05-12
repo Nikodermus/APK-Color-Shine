@@ -8,12 +8,7 @@ body{
     background-image: url(../IMAGES/pattern_blue.png)
 }
 .conteiner{
-    height: 600px;
-    overflow: hidden;
-    /*background: black;*/
     margin: 0px auto;
-    max-width: 940px;
-	
 }
 figure{
     text-align: center;
@@ -24,15 +19,15 @@ figure{
 }
 form{
     text-align: center;
-    margin: 0 10px;
+    margin: 0 auto;
 }
 form p #username,form p #password{
     color: #fff; 
     background: rgba(255, 255, 255, 0.42);
     text-align: center;
-    padding: 10px 80px;
+    padding: 10px 20%;
     border-radius: 5px;
-    margin: 5px 0;
+    margin: 5px;
     font-size: 19px;
     border: none;
     
@@ -54,8 +49,8 @@ a{
     margin: 20px 0 0px 0;
 }
 .social img{
-    width: 80px;
-    margin: 0 10px;
+    width: 60px;
+    margin: auto 10px;
 }
 .play{
     margin: -10px 0 0 0;

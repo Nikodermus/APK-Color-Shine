@@ -8,12 +8,15 @@
     margin: 0;
     padding: 0;   
 }
-
-
 body{
     font-family: "Arial";
 }
-
+.conteiner{
+    padding: 10px 0 0 0;
+}
+a{
+    text-decoration: none;
+}
 a: visited{
     text-decoration: none;
 }
@@ -41,7 +44,7 @@ a: visited{
 } 
 
 .div_role:nth-child(4){
-    background:#8A15FF;
+    background:#9539ff;
 }
 .role{
     padding: 20px;
@@ -62,7 +65,7 @@ a: visited{
 }
 .explication{
     position: absolute;
-    top: 65px;
+    top: 40px;
     right: 25px; 
     width: 40%;
     color: white;

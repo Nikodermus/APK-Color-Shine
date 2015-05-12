@@ -55,7 +55,7 @@ a:visited{
     margin: 2px 0 0 0;
     border-right: 1px solid #f21c1c;
 }
-.sub_menu figure.icon_boards{
+.sub_menu figure.icon_request{
     border-bottom: 5px solid #f21c1c
 }
 .tittle{
@@ -73,6 +73,9 @@ a:visited{
     top: -15px; 
     right: 20px;
     width: 60px;
+}
+.my_boards{
+    display: none;
 }
 .general{
     position: relative
@@ -117,14 +120,13 @@ a:visited{
     display: none;
 }
 .request_wrapper{
-    display: none;
 }
 .text_wrapper{
     width: 400px;
     text-align: center;
 }
 .solicitude{
-    width: 400px;
+    width: 380px;
     height: 120px;
     margin: 10px auto;
     background-image: url(../IMAGES/background_blue.png);

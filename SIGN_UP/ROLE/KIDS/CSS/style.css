@@ -7,11 +7,6 @@ body{
     font-family: "Arial";
     background-image: url(../IMAGES/pattern_gray.png);
 }
-/*.conteiner{
-    width: 480px;
-    background: black;
-    height: 600px;
-}*/
 .menu{
     height: 60px;
     overflow: hidden;
@@ -41,6 +36,7 @@ body{
 .first{
     display: block;
     height: 120px;
+    padding: 0 10%;
 }
 .first_steps{
     position: relative
@@ -49,19 +45,20 @@ body{
     position: absolute;
 }
 .first_steps p{
-    left:10px;
+    left: 1%;
     top: 40px;
     font-family: Animated;
     color: #999;
     font-size: 35px;
 }
 .first_steps img{
-    right: 10px;
+    right: 1%;
     top: 20px;
     width: 80px;
 }
 .step{
-    margin: 10px;
+    margin: 5% auto;
+    width: 90%;
     border-radius: 8px;
     position: relative; 
     height: 140px;
@@ -69,23 +66,25 @@ body{
 }
 .step img{
     position: absolute;
-    top: 20px;
-    left: 15px;
-    width: 100px;
+    top: 10%;
+    left: 30px;
+    width: 30%;
     
 }
 .step p{
     position: absolute;
-    top: 14px;
     right: 10px;
     font-family: Animated;
     color: white;
     text-align: center;
     font-size: 25px;
-    width: 40%;
+    width: 50%;
 }
 .paint{
     background-color: #f21c1c;
+}
+.paint p{
+    margin: 7% 0 0 0;
 }
 .paint img{
     margin: 8px 0 0 0;
@@ -94,7 +93,7 @@ body{
     background-color: #1e8bc3;
 }
 .save p{
-     margin: 24px 0 0 0;
+     margin: 14.5% 0 0 0;
 }
 .board{
     background-color: #7ac943;
@@ -102,14 +101,21 @@ body{
 .board img{
     margin: 5px 0 0 0;
 }
+.board p{
+    margin: 8% 0 0 0
+}
 .start{
     font-family: Animated;
     padding: 10px 30px;
-    margin: 0 10px 0 0;
+    margin: 0 5% 0 0;
     float: right;
     width: 40px;
     border-radius: 4px;
     background-color: #f21c1c;
     color: white;
     font-size: 25px;
+}
+.ke{
+    height: 80px;
+    overflow: hidden
 }

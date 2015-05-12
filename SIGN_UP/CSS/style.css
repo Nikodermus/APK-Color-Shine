@@ -8,9 +8,14 @@ body{
     background-image: url(../IMAGES/pattern_blue.png);
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
 conteiner{
     height: 600px;
-    overflow: hidden;
 }
 .wrapper{
     margin: 20px;
@@ -25,9 +30,11 @@ conteiner{
 
 #username{
     display: block;
-    margin: 5px;
-    width: 300px;
-    
+    margin: 5px auto;
+    width: 90%;
+    padding: 5px 10px;
+    border: none;
+    color: black;
 }
 p{
     margin: 30px 0;
@@ -42,10 +49,10 @@ figure{
 }
 .social{
     text-align: center;
-    margin: 20px 0 0px 0;
+    margin: 10px auto;
 }
 .social img{
-    width: 80px;
+    width: 60px;
     margin: 0 10px;
 }
 
