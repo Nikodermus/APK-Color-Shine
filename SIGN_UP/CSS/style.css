@@ -21,10 +21,13 @@ conteiner{
     height: 540px;
     overflow: hidden;
 }
+
+
 #username{
     display: block;
     margin: 5px;
-    width: 300px
+    width: 300px;
+    
 }
 p{
     margin: 30px 0;
@@ -32,6 +35,8 @@ p{
 figure{
     text-align: center
 }
+
+
 .login{
     width: 60px;
 }
@@ -42,4 +47,92 @@ figure{
 .social img{
     width: 80px;
     margin: 0 10px;
+}
+
+/*------------MOVIL------------*/
+
+@media screen and (max-width: 480px;){
+    .conteiner{
+		width: 95.8333     
+         
+	}
+    
+    .wrapper{
+        width: 82.083333333%;
+        float: none;
+        
+    }
+    
+    form{
+        float: none; 
+        
+    }
+    
+    #username{
+        
+        width: 62.5%; 
+    }
+    
+    p{
+        float: none;
+    }
+    
+    figure{
+        float: none;
+        
+    }
+    
+    .social{
+        
+    }
+    .social img{
+        
+    }
+}
+
+
+/*------------TABLET------------*/
+@media screen and (min-width: 481px) and (max-width: 768px;){
+    .conteiner{
+        width: width: 97.39583333333333%;
+        
+    }
+    
+    .wrapper{
+        width: 93.128645833%;
+        3333333333%;
+       
+            
+    }
+    
+    form{
+        float: left;
+    }
+    
+    #img_inicio{
+        background-image: url(..//IMAGES/)
+    }
+    
+    #username{
+        
+        width: 62.5%; 
+    }
+    
+    p{
+        float: left;
+    }
+    
+    figure{
+        float: none;
+        clear: both;
+        
+    }
+    
+    .social{
+        clear: both;
+        width: 45.572916667%;
+    }
+    .social img{
+       width: 10.416666667%;
+    }
 }

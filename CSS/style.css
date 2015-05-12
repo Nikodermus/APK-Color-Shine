@@ -5,13 +5,15 @@
 }
 body{
     font-family: "Arial";
-    /*background-image: url(../IMAGES/pattern_blue.png)*/
+    background-image: url(../IMAGES/pattern_blue.png)
 }
 .conteiner{
     height: 600px;
     overflow: hidden;
-    background: black;
-    width: 360px;
+    /*background: black;*/
+    margin: 0px auto;
+    max-width: 940px;
+	
 }
 figure{
     text-align: center;
@@ -25,7 +27,7 @@ form{
     margin: 0 10px;
 }
 form p #username,form p #password{
-    color: #fff;
+    color: #fff; 
     background: rgba(255, 255, 255, 0.42);
     text-align: center;
     padding: 10px 80px;
@@ -60,17 +62,42 @@ a{
     width: 50px;
 }
 
-@media screen and (max-width: 480px){
-    .conteiner{
-        width: 100%; 
-         height: 600px;
-        overflow: hidden;
-        background: black;
-        
-    }
-    
+ /*------------MOVIL------------*/   
+ @media screen and (max-width: 480px){
+     .conteiner{
+		width: 95.83333333333333%;
+         
+	}
+     
+    .color_shine{
+        float: none;
+    } 
+     
     form{
-        margin: 0 10px;
+        float: none;
     }
     
-@media screen and (min-width: 481px) and (max-width: 799)
+    form p #username,form p #password{
+        float: none;
+    }
+ }
+
+ /*------------TABLET------------*/ 
+@media screen and (min-width: 481px) and (max-width: 768px){
+	.conteiner{
+		width: 97.39583333333333%;
+	}	
+     .color_shine{
+        float: none;
+         width:     40.885416667%;
+    }
+    form{
+            
+           width:59.635416667; 
+    }
+    
+     form p #username,form p #password{
+         width: 59.635416667;
+         
+     }
+}
