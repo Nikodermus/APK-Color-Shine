@@ -6,8 +6,15 @@
 body{
     font-family: "Arial";
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+}
 .conteiner{
-    width: 480px;
+    
     height: 600px;
     position: relative; 
 }
@@ -38,20 +45,20 @@ body{
     height: 40px
 }
 .menu_bar{
-    height: 70px;
-    overflow:hidden;
+    height: 70px; overflow:hidden;
     position: absolute;
-    width: 460px;
+    width: 100%;
     bottom: 10px;
-    margin: 0 10px;
+    margin: auto;
 }
 .menu_bar img{
     float: left;
-    margin: 0 auto;
+    margin: auto;
     background: #f21c1c;
     border-radius: 8px;
-    margin: 0 10px;
+    margin: 0 2%;
     padding: 5px;
+    width: 12%;
 }
 .menu_bar .save{
     padding: 5px 55px
@@ -60,20 +67,22 @@ body{
 .menu_bar .img{
     text-align: center;
     height: 60px;
-    width: 460px
+    width: 100%;
+    margin: auto;
+    
 }
 .pop_up{
-    height: 400px;
-    width: 480px;
+    height: 390px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.50);
-    padding: 200px 0 0 0;
+    padding: 140px 0 0 0;
     position: absolute;
-    margin: -60px 0;
+    margin: 0px 0;
     opacity: 0;
 }
 .pop_up:hover{
     opacity: 1;
-
+    -webkit-transition-duration: 0.5s;
 }
 .text{
     text-align: center;
@@ -82,13 +91,17 @@ body{
     margin: auto;
     color: white;
 }
-.text p:nth-child(1){
+.save{
+    font-size: 40px;
     font-family: Animated;
-    font-size: 40px
 }
-.text p:nth-child(2), .text p:nth-child(3), .text p:nth-child(4){
+.text a p {
     padding: 10px;
     margin: 10px;
     border-radius: 4px;
-    background-color: #f21c1c
+    background-color: #f21c1c;
+    font-size: 18px;
+}
+.text a p:hover{
+    background-color: #ac1414;
 }

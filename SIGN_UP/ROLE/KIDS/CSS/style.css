@@ -7,6 +7,12 @@ body{
     font-family: "Arial";
     background-image: url(../IMAGES/pattern_gray.png);
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
 .menu{
     height: 60px;
     overflow: hidden;
@@ -114,6 +120,15 @@ body{
     background-color: #f21c1c;
     color: white;
     font-size: 25px;
+}
+.start{
+    text-decoration: none;
+}
+a .start{
+    text-decoration: none;
+}
+a:visited .start{
+    text-decoration: none;
 }
 .ke{
     height: 80px;

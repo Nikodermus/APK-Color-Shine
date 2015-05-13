@@ -10,9 +10,13 @@
 }
 body{
     font-family: "Arial";
+    height: 600px;
+    overflow: hidden;
 }
 .conteiner{
-    padding: 10px 0 0 0;
+    padding: 5% 0 0 0;
+    height: 580px;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -38,11 +42,8 @@ a: visited{
 }
 .div_role:nth-child(3){
     background-image: url(../IMAGES/background_purple.png);
-    z-index: 20;
-    
-    
+    z-index: 20;  
 } 
-
 .div_role:nth-child(4){
     background:#9539ff;
 }
@@ -70,17 +71,8 @@ a: visited{
     width: 40%;
     color: white;
     text-align: center;
+    line-height: 20px;
 }
 .div_role:nth-child(1) p{
     margin: 10px;
-}
-
-/*------------MOVIL------------*/
-
-@media screen and (min-width: 480px;){
-    .conteiner{
-        width: 95.8333%;
-    }
-    
-    
 }

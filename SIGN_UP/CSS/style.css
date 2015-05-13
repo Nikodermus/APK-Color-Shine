@@ -14,13 +14,10 @@ a{
 a:visited{
     text-decoration: none;
 }
-conteiner{
-    height: 600px;
-}
 .wrapper{
-    margin: 20px;
+    margin: 5%;
     background-color: rgba(255, 255, 255, 0.50);
-    padding: 20px;
+    padding: 0 5%;
     color: #fff;
     border-radius: 6px;
     height: 540px;
@@ -31,8 +28,8 @@ conteiner{
 #username{
     display: block;
     margin: 5px auto;
-    width: 90%;
-    padding: 5px 10px;
+    width: 80%;
+    padding: 5px 5%;
     border: none;
     color: black;
 }
@@ -55,49 +52,6 @@ figure{
     width: 60px;
     margin: 0 10px;
 }
-
-/*------------MOVIL------------*/
-
-@media screen and (max-width: 480px;){
-    .conteiner{
-		width: 95.8333%;     
-         
-	}
-    
-    .wrapper{
-        width: 82.083333333%;
-        float: none;
-        
-    }
-    
-    form{
-        float: none; 
-        
-    }
-    
-    #username{
-        
-        width: 62.5%; 
-    }
-    
-    p{
-        float: none;
-    }
-    
-    figure{
-        float: none;
-        
-    }
-    
-    .social{
-        
-    }
-    .social img{
-        
-    }
-}
-
-
 /*------------TABLET------------*/
 @media screen and (min-width: 481px) and (max-width: 768px;){
     .conteiner{
