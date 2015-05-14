@@ -76,3 +76,21 @@ a: visited{
 .div_role:nth-child(1) p{
     margin: 10px;
 }
+
+@media screen and (max-width: 480px){
+    .conteiner{
+        width: 100%;
+        
+    }
+    
+    .div_role{
+        width: 100%;
+    }
+    
+    .logo{
+        width: 25%;
+    }
+    .explication{
+        width: 40%;
+    }
+}

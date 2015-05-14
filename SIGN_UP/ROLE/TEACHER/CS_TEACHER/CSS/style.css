@@ -62,3 +62,18 @@ body{
 .ke{
     height: 30px;
 }
+
+@media screen and (max-width: 480px){
+    .box{
+        width: 65%;
+    }
+    .box p {
+        width: 100%;
+    }
+    .box figure{
+        width: 100%;
+    }
+    .explanation{
+        width: 85%;
+    }
+}

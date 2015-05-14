@@ -94,3 +94,17 @@ body{
     font-size: 18px;
     padding: 10px; 
 }
+
+@media screen and (max-width: 480px){
+    .contenedor{
+        width: 100%;
+    }
+    
+    .buttons{
+        width: 18.75%;
+    }
+    
+    .explain{
+        width: 90%;
+    }
+}
