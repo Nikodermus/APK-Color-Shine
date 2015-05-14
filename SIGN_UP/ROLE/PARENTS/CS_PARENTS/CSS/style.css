@@ -6,6 +6,7 @@
 body{
     font-family: "Arial";
     background-image: url(../IMAGES/pattern_gray.png);
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -39,98 +40,32 @@ a:visited{
 .side img:nth-child(2){
     height: 40px
 }
-.first{
-    display: block;
-    height: 120px;
-    padding: 0 10%;
-}
-.first_steps{
-    position: relative
-}
-.first_steps p, .first_steps img{
-    position: absolute;
-}
-.first_steps p{
-    left: 1%;
-    top: 40px;
-    font-family: Animated;
-    color: #999;
-    font-size: 35px;
-}
-.first_steps img{
-    right: 1%;
-    top: 20px;
-    width: 80px;
-}
-.step{
-    margin: 5% auto;
-    width: 90%;
-    border-radius: 8px;
-    position: relative; 
-    height: 140px;
-    background-color: black;
-}
-.step img{
-    position: absolute;
-    top: 10%;
-    left: 30px;
-    width: 30%;
-    
-}
-.step p{
-    position: absolute;
-    right: 10px;
-    font-family: Animated;
-    color: white;
+.camera{
+    width: 95%;
+    overflow: hidden;
+    margin: 2% 2.5% 0 2.5%;
     text-align: center;
-    font-size: 25px;
-    width: 50%;
+    position: relative;
 }
-.paint{
-    background-color: #8a15ff;
+.camera img{
+    width: 100%;
 }
-.paint p{
-    margin: 7% 0 0 0;
+.camera a img{
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 42.5%
 }
-.paint img{
-    margin: 8px 0 0 0;
+.pics{
+    width: 100%;
+    margin: -5px 0 auto 4%;
+    height: 300px;
 }
-.save{
-    background-color: #f27935;
+.pics img{
+    width: 30%;
+    float: left;
+    margin: auto;
+    text-align: center;
 }
-.save p{
-     margin: 14.5% 0 0 0;
-}
-.board{
-    background-color: #1bbc9b;
-}
-.board img{
-    margin: 5px 0 0 0;
-}
-.board p{
-    margin: 8% 0 0 0
-}
-.start{
-    font-family: Animated;
-    padding: 10px 30px;
-    margin: 0 5% 0 0;
-    float: right;
-    width: 40px;
-    border-radius: 4px;
-    background-color: #8a15ff;
-    color: white;
-    font-size: 25px;
-}
-.start{
-    text-decoration: none;
-}
-a .start{
-    text-decoration: none;
-}
-a:visited .start{
-    text-decoration: none;
-}
-.ke{
-    height: 80px;
-    overflow: hidden
-}
+
