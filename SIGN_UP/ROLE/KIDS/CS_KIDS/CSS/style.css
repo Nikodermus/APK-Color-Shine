@@ -158,3 +158,21 @@ a:visited{
     float: left;
     margin: 20px 10px;
 }
+
+@media screen and (max-width: 480px){
+    .menu{
+        width: 100%;
+    }
+    .sub_menu{
+        width: 100%;
+    }
+    .sub_menu figure{
+       width: 32.9799%; 
+    }
+    .add{
+        width: 12.5%;
+    }
+    .general{
+        width: 100%;
+    }
+}
