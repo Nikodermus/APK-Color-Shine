@@ -175,4 +175,7 @@ a:visited{
     .general{
         width: 100%;
     }
+    .board{
+        width: 80%;
+    }
 }
