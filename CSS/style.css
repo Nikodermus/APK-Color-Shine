@@ -5,7 +5,10 @@
 }
 body{
     font-family: "Arial";
-    background-image: url(../IMAGES/pattern_blue.png)
+    background-image: url(../IMAGES/pattern_blue.png);
+    overflow-x: hidden;
+    min-height: 600px;
+    height: 600px;
 }
 @font-face
 {
@@ -28,14 +31,14 @@ figure{
 form{
     text-align: center;
     margin: 0 auto;
-    width: 90%;
+    width: 50%;
     color: 
 }
 form p #username,form p #password{
     color: #fff; 
     background: rgba(255, 255, 255, 0.42);
     text-align: center;
-    padding: 10px 20%;
+    padding: 10px 0;
     border-radius: 5px;
     margin: 5px;
     font-size: 19px;
